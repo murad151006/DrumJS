@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" />
+     
+    <!--External CSS-->
+    <link rel="stylesheet" href="keyStyle.css">
+    <title>JS Drum Kit</title>
+</head>
+<body>
+
+    <!--Make the keys div-->
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">Applause</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">Hithat</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">Kick</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">Openhat</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">boom</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">ride</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">spare</span>
+        </div>
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">Kitkat</span>
+        </div>
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">FBeat</span>
+        </div>
+    </div>
+
+    <!--Audios-->
+    <audio data-key="65" src="sounds/doubled-clap_C.wav"></audio>
+    <audio data-key="83" src="sounds/hi-hat-01.wav"></audio>
+    <audio data-key="68" src="sounds/kick-02.wav"></audio>
+    <audio data-key="70" src="sounds/808-open-hat-1.wav"></audio>
+    <audio data-key="71" src="sounds/boom-kick_A_minor.wav"></audio>
+    <audio data-key="72" src="sounds/doubled-clap_C.wav"></audio>
+    <audio data-key="74" src="sounds/hi-hat-01.wav"></audio>
+    <audio data-key="75" src="sounds/808-open-hat-1.wav"></audio>
+    <audio data-key="76" src="sounds/first_beat.wav"></audio>
+  
+    <!--External JS Script-->
+    <script type="text/javascript" src="keyJS.js"></script>
+</body>
+</html>
