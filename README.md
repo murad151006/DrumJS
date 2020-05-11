@@ -1,2 +1,3 @@
-# RepOne
-First App
+# Drum Kit JavaScript
+JavaScript
+
